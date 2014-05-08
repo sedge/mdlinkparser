@@ -20,7 +20,7 @@ module.exports = function( grunt ) {
           reporter: "spec",
           timeout: "20000"
         },
-        src: [ "./test.js" ]
+        src: [ "./test/test.js" ]
       }
     }
   });
