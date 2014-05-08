@@ -1,7 +1,7 @@
 {
-  "name": "mdlinkparser",
+  "name": "sedge_mdlinkparser",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "homepage": "https://github.com/sedge/mdlinkparser",
   "authors": [
     "Kieran Sedgwick <kieran.sedgwick@gmail.com>"
