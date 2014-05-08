@@ -5,7 +5,6 @@ module.exports = function( grunt ) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON( "package.json" ),
-
     jshint: {
       files: [
         "Gruntfile.js",
@@ -13,7 +12,6 @@ module.exports = function( grunt ) {
         "test/*.js"
       ]
     },
-
     mochaTest: {
       test: {
         options: {
@@ -25,5 +23,7 @@ module.exports = function( grunt ) {
     }
   });
 
+  // Register custom tasks
   grunt.registerTask( "default", [ "jshint", "mochaTest" ]);
+  grunt.registerTask( "travis", [ "jshint", "mochaTest" ]);
 };
