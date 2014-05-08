@@ -2,29 +2,24 @@
 // if (typeof define !== 'function') { var define = require('amdefine')(module) }
 
 /**
-* Global requires
-*/
-
-/**
 * Exports
 */
-module.exports = (function() {
-  var mdLink = /(\[[^\]]+\])(\([^)]+)\)/g;
 
-  return {
-    parseString: function( markdown ) {
-      var links = new Array();
-      var results;
+module.exports = function( markdown ) {
+  var mdLink = /\[([^\]]+)\]\(([^)]+)\)/g;
 
-      if ( !markdown ) {
-        throw "No markdown supplied!";
-      }
+  var links = [];
+  var results;
 
-      while ( (results = mdLink.exec( markdown ) !== null ) ) {
-        links.push( results[2] );
-      }
+  if ( !markdown ) {
+    throw "No markdown supplied!";
+  }
 
-      return links;
-    }
-  };
-})();
+  while ( ( (results = mdLink.exec( markdown ) ) !== null ) ) {
+    links.push( results[2] );
+  }
+
+  return links;
+};
+
+
