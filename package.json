@@ -1,6 +1,6 @@
 {
   "name": "sedge_mdlinkparser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My sample node app/bower module/npm module.",
   "author": "Kieran Sedgwick",
   "dependencies": {
