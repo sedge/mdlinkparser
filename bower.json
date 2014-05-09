@@ -1,0 +1,6 @@
+{
+  "name": "mdlinkparser",
+  "dependencies": {
+    "sedge_mdlinkparser": "1.0.2"
+  }
+}

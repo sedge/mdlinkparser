@@ -1,0 +1,21 @@
+{
+  "name": "sedge_mdlinkparser",
+  "main": "index.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/sedge/mdlinkparser",
+  "authors": [
+    "Kieran Sedgwick <kieran.sedgwick@gmail.com>"
+  ],
+  "description": "Let's find those links!",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
