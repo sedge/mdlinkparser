@@ -1,0 +1,15 @@
+{
+  "name": "sedge_mdlinkparser",
+  "version": "1.0.2",
+  "description": "My sample node app/bower module/npm module.",
+  "author": "Kieran Sedgwick",
+  "dependencies": {
+    "bower": "^1.3.3",
+    "grunt": "0.4.4",
+    "grunt-bower-requirejs": "^0.10.0",
+    "grunt-contrib-jshint": "0.10.0"
+  },
+  "scripts": {
+    "build": "bower install && grunt build"
+  }
+}
