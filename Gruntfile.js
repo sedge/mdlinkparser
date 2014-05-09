@@ -13,7 +13,7 @@ module.exports = function( grunt ) {
     },
     bower: {
       target: {
-        rjsConfig: "js/config.js"
+        rjsConfig: "js/main.js"
       }
     }
   });
